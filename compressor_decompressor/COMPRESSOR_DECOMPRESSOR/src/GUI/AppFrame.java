@@ -22,17 +22,13 @@ public class AppFrame extends JFrame implements ActionListener {
         this.setSize(1400, 700);
         this.getContentPane().setBackground(Color.DARK_GRAY);
         this.setVisible(true);
-       // this.setResizable(false);
-
+       
         compressButton = new JButton("Select file to compress");
-        //compressButton.setBounds(400, 150, 200,50);
         compressButton.setSize(220,50);
         compressButton.setLocation(390,150);
         compressButton.addActionListener(this);
-        compressButton.
 
         decompressButton = new JButton("Select file to decompress");
-        //decompressButton.setBounds(400, 300, 200,50);
         decompressButton.setSize(220,50);
         decompressButton.setLocation(740,150);
         decompressButton.addActionListener(this);
